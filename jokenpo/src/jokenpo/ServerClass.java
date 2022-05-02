@@ -5,13 +5,13 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ServerClassMain {
+public class ServerClass {
 	static Scanner scanner;
 	static ServerSocket serverSocket;
 	static Socket socketCliente;
 	private final int PORTASOCKET = 1238;
 
-	public ServerClassMain() {
+	public ServerClass() {
 		super();
 		initSocket();
 
@@ -27,9 +27,6 @@ public class ServerClassMain {
 		}
 	}
 
-	public static void main(String[] args) {
-
-		ServerClassMain serverClassMain = new ServerClassMain();
-	}
+	
 
 }
