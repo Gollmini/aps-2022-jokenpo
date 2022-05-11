@@ -1,7 +1,5 @@
-package jokenpo;
 
-public class JogadorClass {
-
+public class Jogador {
 	private int codigo;
 	private int jogada;
 
